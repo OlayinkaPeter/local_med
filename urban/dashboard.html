@@ -1,0 +1,774 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard | Pebble</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <!-- page level plugin styles -->
+  <!-- /page level plugin styles -->
+
+  <!-- build:css({.tmp,app}) styles/app.min.css -->
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+  <link rel="stylesheet" href="styles/roboto.css">
+  <link rel="stylesheet" href="styles/font-awesome.css">
+  <!-- <link rel="stylesheet" href="styles/panel.css"> -->
+  <!-- <link rel="stylesheet" href="styles/feather.css"> -->
+  <link rel="stylesheet" href="styles/animate.css">
+  <link rel="stylesheet" href="styles/urban.css">
+  <!-- <link rel="stylesheet" href="styles/urban.skins.css"> -->
+  <!-- endbuild -->
+
+  <style type="text/css">
+    #main-nav li a.active, #main-nav li a:hover {
+      border-bottom: 2px solid royalblue;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- quick launch panel -->
+
+  <!-- /quick launch panel -->
+
+  <div class="app layout-fixed-header">
+
+    <!-- sidebar panel -->
+
+    <!-- /sidebar panel -->
+
+    <!-- content panel -->
+    <div class="main-panel" style="padding-left: 0; margin-left: 0;">
+
+      <!-- top header -->
+      <header class="header navbar" style="padding-left: 0; margin-left: 0;">
+
+        <div class="brand visible-xs">
+          <!-- toggle offscreen menu -->
+
+          <!-- /toggle offscreen menu -->
+
+          <!-- logo -->
+          <div class="brand-logo pull-left">
+            <a href="javascript:;">
+              <img src="images/logo-dark.png" height="15" alt="LOGO">
+            </a>
+          </div>
+          <!-- /logo -->
+
+          <!-- toggle chat sidebar small screen-->
+          <div class="toggle-chat">
+            <a href="javascript:;" class="hamburger-icon v2 visible-xs" data-toggle="layout-chat-open">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+          <!-- /toggle chat sidebar small screen-->
+        </div>
+
+        <ul id="main-nav" class="nav navbar-nav hidden-xs">
+          <li>
+            <!-- logo -->
+            <div class="navbar-text brand-logo">
+              <a href="javascript:;" style="border: 0;">
+                <img src="images/logo-dark.png" height="15" alt="LOGO">
+              </a>
+            </div>
+            <!-- /logo -->
+          </li>
+          <li class="">
+            <a class="active" href="#">
+              Dashoard
+            </a>
+          </li>
+          <li class="">
+            <a class="" href="#">
+              Statistics
+            </a>
+          </li>
+          <li class="">
+            <a class="" href="#">
+              About
+            </a>
+          </li>
+          <li class="">
+            <p class="navbar-text">
+              1 Pebble @ a time
+            </p>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right hidden-xs">
+
+
+          <li>
+            <a href="javascript:;" data-toggle="dropdown">
+              <i class="fa fa-bell-o"></i>
+              <div class="status bg-danger border-danger animated bounce"></div>
+            </a>
+            <ul class="dropdown-menu notifications">
+              <li class="notifications-header">
+                <p class="text-muted small">You have 3 new messages</p>
+              </li>
+              <li>
+                <ul class="notifications-list">
+                  <li>
+                    <a href="javascript:;">
+                      <span class="pull-left mt2 mr15">
+                                                <img src="images/avatar.jpg" class="avatar avatar-xs img-circle" alt="">
+                                            </span>
+                      <div class="overflow-hidden">
+                        <span>Sean launched a new application</span>
+                        <span class="time">2 seconds ago</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      <div class="pull-left mt2 mr15">
+                        <div class="circle-icon bg-danger">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                      </div>
+                      <div class="overflow-hidden">
+                        <span>Removed chrome from app list</span>
+                        <span class="time">4 Hours ago</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      <span class="pull-left mt2 mr15">
+                                                <img src="images/face3.jpg" class="avatar avatar-xs img-circle" alt="">
+                                            </span>
+                      <div class="overflow-hidden">
+                        <span class="text-muted">Jack Hunt has registered</span>
+                        <span class="time">9 hours ago</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="notifications-footer">
+                <a href="javascript:;">See all messages</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="javascript:;" data-toggle="dropdown">
+              <img src="images/avatar.jpg" class="header-avatar img-circle ml10" alt="user" title="user">
+              <span class="pull-left">Samuel Perkins</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="javascript:;">Settings</a>
+              </li>
+              <li>
+                <a href="javascript:;">Upgrade</a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <span class="label bg-danger pull-right">34</span>
+                  <span>Notifications</span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">Help</a>
+              </li>
+              <li>
+                <a href="signin.html">Logout</a>
+              </li>
+            </ul>
+
+          </li>
+
+          <li>
+            <a href="javascript:;" class="hamburger-icon v2" data-toggle="layout-chat-open">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </li>
+        </ul>
+      </header>
+      <!-- /top header -->
+
+
+      <!-- main area -->
+      <div class="main-content" style="padding-top: 60px;">
+
+        <div class="row">
+          <div class="jumbotron" style="background: rgba(25,25,25,0.2);">
+            <div class="container text-center">
+              <h1>Pebble Arena!</h1>
+              <p>Contents ...</p>
+              <p>
+                <a class="btn btn-primary btn-lg" href="javascript:;">Learn more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+<div class="container">
+      <div class="row">
+        <div class="row">
+          <!-- Column 1 - Recent Pebble Posts -->
+          <div class="col-md-8">
+            <h4>Recent Pebble Posts</h4>
+            <section class="widget bg-white post-comments">
+              <div class="media">
+                <a class="pull-left" href="javascript:;">
+                  <img class="media-object avatar avatar-sm" src="images/avatar.jpg" alt="">
+                </a>
+                <div class="comment">
+                  <div class="comment-author h6 no-margin">
+                    <div class="comment-meta small">May 2015, 19:20</div>
+                    <a href="javascript:;"><strong>Samuel Perkins</strong></a>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Frater et T. Sed ad bona praeterita redeamus.
+                  </p>
+
+                  <div class="profile-timeline-controls">
+                    <a class="mr15" href="javascript:;" style="">
+                      <i class="fa fa-heart mr5"></i> 1 Like
+                    </a>
+                    <a href="javascript:;">
+                      <i class="fa fa-comment mr5"></i> 1 Comment
+                    </a>
+                    <a class="ml15" href="javascript:;" style="">
+                      <i class="fa fa-share-alt mr5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+
+
+              <div class="media">
+                <a class="pull-left" href="javascript:;">
+                  <img class="media-object avatar avatar-sm" src="images/face1.jpg" alt="">
+                </a>
+                <div class="comment">
+                  <div class="comment-author h6 no-margin">
+                    <div class="comment-meta small">May 2015, 19:20</div>
+                    <a href="javascript:;"><strong>Adam Robertson</strong></a>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Frater et T. Sed ad bona praeterita redeamus.
+                  </p>
+
+                  <div class="profile-timeline-controls">
+                    <a class="mr15" href="javascript:;" style="">
+                      <i class="fa fa-heart mr5"></i> 1 Like
+                    </a>
+                    <a href="javascript:;">
+                      <i class="fa fa-comment mr5"></i> 1 Comment
+                    </a>
+                    <a class="ml15" href="javascript:;" style="">
+                      <i class="fa fa-share-alt mr5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="media">
+                <a class="pull-left" href="javascript:;">
+                  <img class="media-object avatar avatar-sm" src="images/face5.jpg" alt="">
+                </a>
+                <div class="comment">
+                  <div class="comment-author h6 no-margin">
+                    <div class="comment-meta small">May 2015, 19:20</div>
+                    <a href="javascript:;"><strong>Christina Day</strong></a>
+                  </div>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Frater et T. Sed ad bona praeterita redeamus.
+                  </p>
+
+                  <div class="profile-timeline-controls">
+                    <a class="mr15" href="javascript:;" style="">
+                      <i class="fa fa-heart mr5"></i> 1 Like
+                    </a>
+                    <a href="javascript:;">
+                      <i class="fa fa-comment mr5"></i> 1 Comment
+                    </a>
+                    <a class="ml15" href="javascript:;" style="">
+                      <i class="fa fa-share-alt mr5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+              <div class="clearfix"></div>
+
+              <ul class="pager pager-square">
+                <li>
+                  <a href="javascript:;">Previous</a>
+                </li>
+                <li>
+                  <a href="javascript:;">Next</a>
+                </li>
+              </ul>
+
+            </section>
+          </div>
+
+
+          <!-- Column 2 - Random Motivational Texts & Images -->
+          <div class="col-md-4">
+            <h4>Motivationals</h4>
+            <div class="widget bg-lightblue">
+              <div class="widget-bg-icon">
+                <i class="fa fa-bookmark-o"></i>
+              </div>
+              <div class="widget-details">
+                <span class="block h4 mt0 mb5">Title</span>
+                <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+              </div>
+            </div>
+            <div class="widget bg-dark">
+              <div class="widget-bg-icon">
+                <i class="fa fa-bookmark-o"></i>
+              </div>
+              <div class="widget-details">
+                <span class="block h4 mt0 mb5">Title</span>
+                <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+              </div>
+            </div>
+            <div class="widget bg-blue">
+              <div class="widget-bg-icon">
+                <i class="fa fa-bookmark-o"></i>
+              </div>
+              <div class="widget-details">
+                <span class="block h4 mt0 mb5">Title</span>
+                <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+        <!-- <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
+
+        <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+        <h2>Header Level 2</h2>
+
+        <ol>
+          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+          <li>Aliquam tincidunt mauris eu risus.</li>
+        </ol>
+
+        <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+        <h3>Header Level 3</h3>
+
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+          <li>Aliquam tincidunt mauris eu risus.</li>
+        </ul>
+
+        <pre><code>
+        #header h1 a {
+          display: block;
+          width: 300px;
+          height: 80px;
+        }
+        </code></pre> -->
+      </div>
+      <!-- /main area -->
+    </div>
+    <!-- /content panel -->
+
+    <!-- bottom footer -->
+    <footer class="content-footer" style="padding-left: 15px;">
+
+      <nav class="footer-right">
+        <ul class="nav">
+          <li>
+            <a href="javascript:;">Feedback</a>
+          </li>
+          <li>
+            <a href="javascript:;" class="scroll-up">
+              <i class="fa fa-angle-up"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="footer-left">
+        <ul class="nav">
+          <li>
+            <a href="javascript:;">Copyright <i class="fa fa-copyright"></i> <span>Urban</span> 2015. All rights reserved</a>
+          </li>
+          <li>
+            <a href="javascript:;">Careers</a>
+          </li>
+          <li>
+            <a href="javascript:;">
+                Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </footer>
+    <!-- /bottom footer -->
+
+    <!-- chat -->
+    <div class="chat-panel">
+      <div class="chat-inner">
+        <div class="chat-users">
+          <div class="nav-justified-xs">
+
+            <ul class="nav nav-tabs nav-justified ">
+              <li class="active">
+                <a href="#chat-list" data-toggle="tab">Chat</a>
+              </li>
+              <li>
+                <a href="#market" data-toggle="tab">Favourites</a>
+              </li>
+              <li>
+                <a href="#activity" data-toggle="tab">Activity</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-content">
+
+            <div class="tab-pane active" id="chat-list">
+              <div class="chat-group">
+                <div class="chat-group-header">
+                  Favourites
+                </div>
+                <a href="javascript:;">
+                  <span class="status-online"></span>
+                  <span>Catherine Moreno</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-online"></span>
+                  <span>Denise Peterson</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-away"></span>
+                  <span>Charles Wilson</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-away"></span>
+                  <span>Melissa Welch</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-no-disturb"></span>
+                  <span>Vincent Peterson</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Pamela Wood</span>
+                </a>
+              </div>
+
+              <div class="chat-group">
+                <div class="chat-group-header">
+                  Online Friends
+                </div>
+                <a href="javascript:;">
+                  <span class="status-online"></span>
+                  <span>Tammy Carpenter</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-away"></span>
+                  <span>Emma Sullivan</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-no-disturb"></span>
+                  <span>Andrea Brewer</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-online"></span>
+                  <span>Sean Carpenter</span>
+                </a>
+              </div>
+
+              <div class="chat-group">
+                <div class="chat-group-header">
+                  Offline
+                </div>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Denise Peterson</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Jose Rivera</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Diana Robertson</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>William Fields</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Emily Stanley</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Jack Hunt</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Sharon Rice</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Mary Holland</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Diane Hughes</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Steven Smith</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Emily Henderson</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Wayne Kelly</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Jane Garcia</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Jose Jimenez</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Rachel Burton</span>
+                </a>
+                <a href="javascript:;">
+                  <span class="status-offline"></span>
+                  <span>Samantha Ruiz</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="market">
+              <div class="favourite-list">
+                <a href="#">
+                  <div class="media-left relative">
+                    <img class="img-circle avatar avatar-xs" src="images/avatar.jpg" alt="avatar">
+                    <div class="status bg-success border-white mr10"></div>
+                  </div>
+                  <div class="media-body">
+                    <span class="block">Catherine Moreno</span>
+                    <span class="text-muted">Online</span>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="media-left relative">
+                    <img class="img-circle avatar avatar-xs" src="images/face1.jpg" alt="avatar">
+                    <div class="status bg-success border-white mr10"></div>
+                  </div>
+                  <div class="media-body">
+                    <span class="block">Denise Peterson</span>
+                    <span class="text-muted">Online</span>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="media-left relative">
+                    <img class="img-circle avatar avatar-xs" src="images/face3.jpg" alt="avatar">
+                    <div class="status bg-default border-white mr10"></div>
+                  </div>
+                  <div class="media-body">
+                    <span class="block">Charles Wilson</span>
+                    <span class="text-muted">Busy</span>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="media-left relative">
+                    <img class="img-circle avatar avatar-xs" src="images/face4.jpg" alt="avatar">
+                    <div class="status bg-danger border-white mr10"></div>
+                  </div>
+                  <div class="media-body">
+                    <span class="block">Melissa Welch</span>
+                    <span class="text-muted">Offline</span>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="media-left relative">
+                    <img class="img-circle avatar avatar-xs" src="images/face5.jpg" alt="avatar">
+                    <div class="status bg-danger border-white mr10"></div>
+                  </div>
+                  <div class="media-body">
+                    <span class="block">Vincent Peterson</span>
+                    <span class="text-muted">Offline</span>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="media-left relative">
+                    <img class="img-circle avatar avatar-xs" src="images/avatar.jpg" alt="avatar">
+                    <div class="status bg-danger border-white mr10"></div>
+                  </div>
+                  <div class="media-body">
+                    <span class="block">Pamela Wood</span>
+                    <span class="text-muted">Offline</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="activity">
+              <ol class="activity-feed">
+                <li class="feed-item">
+                  <span>Launched a new application</span>
+                  <time datetime="2015-01-30 00:00">2 seconds ago</time>
+                </li>
+                <li class="feed-item inactive">
+                  <span>Removed chrome from app list</span>
+                  <time datetime="2015-01-20 00:00">Jan 20</time>
+                </li>
+                <li class="feed-item">
+                  <span>Approved new user "Jack hunt"</span>
+                  <time datetime="2015-01-02 00:00">Jan 02</time>
+                </li>
+                <li class="feed-item active">
+                  <span>Executed new cron jobs on server with id 67gyu789</span>
+                  <time datetime="2014-12-12 00:00">Dec 12</time>
+                </li>
+                <li class="feed-item">
+                  <span class="text">Added paypal to list payment options</span>
+                  <time datetime="2014-12-01 00:00">Dec 01</time>
+                </li>
+                <li class="feed-item">
+                  <span>Added 6 new calendar events</span>
+                  <time datetime="2014-08-30 00:00">Aug 30</time>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+        </div>
+        <div class="chat-conversation">
+
+          <div class="chat-header">
+            <a class="chat-back" href="javascript:;">
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <div class="chat-header-title">
+              Charles Wilson
+            </div>
+            <a class="chat-right" href="javascript:;">
+              <i class="fa fa-circle-thin"></i>
+            </a>
+          </div>
+
+          <div class="chat-conversation-content">
+
+            <p class="text-center text-muted small text-uppercase bold pb15">
+              Yesterday
+            </p>
+
+            <div class="chat-conversation-user them">
+              <div class="chat-conversation-message">
+                <p>Hey.</p>
+              </div>
+            </div>
+
+            <div class="chat-conversation-user them">
+              <div class="chat-conversation-message">
+                <p>How are the wife and kids, Taylor?</p>
+              </div>
+            </div>
+
+            <div class="chat-conversation-user me">
+              <div class="chat-conversation-message">
+                <p>Pretty good, Samuel.</p>
+              </div>
+            </div>
+
+            <p class="text-center text-muted small text-uppercase bold pb15">
+              Today
+            </p>
+
+            <div class="chat-conversation-user them">
+              <div class="chat-conversation-message">
+                <p>Curabitur blandit tempus porttitor.</p>
+              </div>
+            </div>
+
+            <div class="chat-conversation-user me">
+              <div class="chat-conversation-message">
+                <p>Goodnight!</p>
+              </div>
+            </div>
+
+            <div class="chat-conversation-user them">
+              <div class="chat-conversation-message">
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="chat-conversation-footer">
+            <button class="chat-input-tool">
+              <i class="fa fa-camera"></i>
+            </button>
+            <div class="chat-input" contenteditable=""></div>
+            <button class="chat-send">
+              <i class="fa fa-paper-plane"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- /chat -->
+  </div>
+
+  <!-- build:js({.tmp,app}) scripts/app.min.js -->
+  <!-- <script src="scripts/extentions/modernizr.js"></script> -->
+  <script src="vendor/jquery/dist/jquery.js"></script>
+  <script src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="vendor/jquery.easing/jquery.easing.js"></script>
+  <!-- <script src="vendor/fastclick/lib/fastclick.js"></script> -->
+  <!-- <script src="vendor/onScreen/jquery.onscreen.js"></script> -->
+  <!-- <script src="vendor/jquery-countTo/jquery.countTo.js"></script> -->
+  <!-- <script src="vendor/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script> -->
+  <!-- <script src="scripts/ui/accordion.js"></script> -->
+  <!-- <script src="scripts/ui/animate.js"></script> -->
+  <!-- <script src="scripts/ui/link-transition.js"></script> -->
+  <!-- <script src="scripts/ui/panel-controls.js"></script> -->
+  <!-- <script src="scripts/ui/preloader.js"></script> -->
+  <script src="scripts/ui/toggle.js"></script>
+  <!-- <script src="scripts/urban-constants.js"></script> -->
+  <!-- <script src="scripts/extentions/lib.js"></script> -->
+  <!-- endbuild -->
+</body>
+
+</html>
